@@ -12,6 +12,7 @@
     <link rel="preload" href="css/styles.css" as="style">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
+
 <body>
     <header>
         <h1 class="titulo">Luis Andres Medina <span>Freelancer</span></h1>
@@ -28,7 +29,9 @@
 
     <section class="hero">
         <div class="contenido-hero">
-            <h2 class="titulo"> Diseño y Desarrollo Web <span>Freelancer</span></h2>
+            <h2> Diseño y Desarrollo Web <span>Freelancer</span></h2>
+            <div class="ubicacion">
+           
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map" 
                 width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" 
                 stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -38,98 +41,111 @@
                     <line x1="15" y1="7" x2="15" y2="20" />
             </svg>
             <p>Mexico, D.F.</p>
-            <a href="#">Contactar</a>
+            </div>
+            <a class="boton" href="#">Contactar</a>
         </div>
     </section>
     
-<main>
+<main class="contenedor sombra">
     <h2>Mis Servicios</h2>
-    <section>
-        <h3>Diseño Web</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-artboard" 
-            width="48" height="48" viewBox="0 0 24 24" 
-            stroke-width="1.5" stroke="#c9de00" fill="none" 
-            stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="8" y="8" width="8" height="8" rx="1" />
-                <line x1="3" y1="8" x2="4" y2="8" />
-                <line x1="3" y1="16" x2="4" y2="16" />
-                <line x1="8" y1="3" x2="8" y2="4" />
-                <line x1="16" y1="3" x2="16" y2="4" />
-                <line x1="20" y1="8" x2="21" y2="8" />
-                <line x1="20" y1="16" x2="21" y2="16" />
-                <line x1="8" y1="20" x2="8" y2="21" />
-                <line x1="16" y1="20" x2="16" y2="21" />
-          </svg>
-        <p>loreasdf sadf dsd asdf  sdf asdf hgrfd zsd bvev sad</p>
-    </section>
-    
-    <section>
-        <h3>Aplicaciones Web</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" 
-            width="48" height="48" viewBox="0 0 24 24" 
-            stroke-width="1.5" stroke="#00bfd8" fill="none" 
-            stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="4" y="4" width="6" height="6" rx="1" />
-                <rect x="4" y="14" width="6" height="6" rx="1" />
-                <rect x="14" y="14" width="6" height="6" rx="1" />
-                <line x1="14" y1="7" x2="20" y2="7" />
-                <line x1="17" y1="4" x2="17" y2="10" />
-          </svg>
-        <p>asdf as ge aedfg  ewrg sdewrg asdrg asd asdf</p>
-    </section>
-    
-    <section>
-        <h3>E-Commerce</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-currency-dollar" 
-            width="48" height="48" viewBox="0 0 24 24" 
-            stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" 
-            stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" />
-                <path d="M12 3v3m0 12v3" />
-          </svg>
-        <p>as fg sdfg asg wegsd erg esg asdrgv er </p>
-    </section>
-</main>
+    <div class="servicios">
+        
+        <section class="servicio">
+            <h3>Diseño Web</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-artboard" 
+                    width="48" height="48" viewBox="0 0 24 24" 
+                    stroke-width="1.5" stroke="#c9de00" fill="none" 
+                    stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="8" y="8" width="8" height="8" rx="1" />
+                        <line x1="3" y1="8" x2="4" y2="8" />
+                        <line x1="3" y1="16" x2="4" y2="16" />
+                        <line x1="8" y1="3" x2="8" y2="4" />
+                        <line x1="16" y1="3" x2="16" y2="4" />
+                        <line x1="20" y1="8" x2="21" y2="8" />
+                        <line x1="20" y1="16" x2="21" y2="16" />
+                        <line x1="8" y1="20" x2="8" y2="21" />
+                        <line x1="16" y1="20" x2="16" y2="21" />
+                </svg>
+            </div>
+            <p>loreasdf sadf dsd asdf  sdf asdf hgrfd zsd bvev sad</p>
+        </section>
+        
+        <section class="servicio">
+            <h3>Aplicaciones Web</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" 
+                    width="48" height="48" viewBox="0 0 24 24" 
+                    stroke-width="1.5" stroke="#00bfd8" fill="none" 
+                    stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="6" height="6" rx="1" />
+                        <rect x="4" y="14" width="6" height="6" rx="1" />
+                        <rect x="14" y="14" width="6" height="6" rx="1" />
+                        <line x1="14" y1="7" x2="20" y2="7" />
+                        <line x1="17" y1="4" x2="17" y2="10" />
+                </svg>
+            </div>
+            <p>asdf as ge aedfg  ewrg sdewrg asdrg asd asdf</p>
+        </section>
+        
+        <section class="servicio">
+            <h3>E-Commerce</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-currency-dollar" 
+                    width="48" height="48" viewBox="0 0 24 24" 
+                    stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" 
+                    stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" />
+                        <path d="M12 3v3m0 12v3" />
+                </svg>
+            </div>
+            <p>as fg sdfg asg wegsd erg esg asdrgv er </p>
+        </section>
+    </div>
+
     
 <section>
     <h2>Contacto</h2>
-    <form action="">
+    <form class="formulario">
         <fieldset>
             <legend>Contactame llenando los siguientes campos</legend>
-            <div>
-                <label for="">Nombre</label>
-                <input type="text" placeholder="Tu Nombre"/>
-            </div>
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label for="">Nombre</label>
+                    <input class="input-text" type="text" placeholder="Tu Nombre"/>
+                </div>
 
-            <div>
-                <label for="">Teléfono</label>
-                <input type="tel" placeholder="Tu teléfono"/>
-            </div>
+                <div class="campo">
+                    <label for="">Teléfono</label>
+                    <input  class="input-text"type="tel" placeholder="Tu teléfono"/>
+                </div>
 
-            <div>
-                <label for="">Correo</label>
-                <input type="email" placeholder="Tu email"/>
-            </div>
+                <div class="campo">
+                    <label for="">Correo</label>
+                    <input class="input-text" type="email" placeholder="Tu email"/>
+                </div>
 
-            <div>
-                <label for="Mensaje"></label>
-                <textarea></textarea>
+                <div class="campo">
+                    <label for="Mensaje"></label>
+                    <textarea class="input-text"></textarea>
+                </div>
+            </div>        
+            <div class="enviar">
+                <input class="boton w-100" type="submit" value="Enviar"></input> <!-- tambien se puede usar el boton-->
             </div>
-
-            <div>
-                <button type="submit" value="Enviar">Enviar</button> <!-- tambien se puede usar el input-->
-            </div>
+            
 
             
 
         </fieldset>
     </form>
 </section>
+</main>
     
-<footer>
+<footer class="footer">
     <p>Todos los derechos reservados. LAMC.</p>
 </footer>
 
